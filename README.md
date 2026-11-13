@@ -1,24 +1,36 @@
-# Phonebook — GoIT React HW 03
+# Phonebook — GoIT React Homework 03
 
-React + Vite phonebook with Formik, Yup, nanoid, react-icons, and CSS Modules.
+A responsive phonebook built with React, Vite, Formik, Yup, nanoid, react-icons, and CSS Modules.
 
 ## Features
-- Add contacts with required, 3–50 character validation for name and number.
-- Search contact names case-insensitively, and delete contacts.
-- Persist added/deleted contacts in localStorage, including an empty list.
-- Semantic labels, responsive design, and individual component folders.
 
-## Install and run
-Use a Node.js version supported by the project's current Vite release (Node 20.19+ or 22.12+).
+- Add contacts with required, 3–50-character validation for both fields.
+- Search contacts by name without case sensitivity.
+- Delete contacts individually.
+- Persist contacts in localStorage, including an intentionally empty list.
+- Accessible labels and responsive layout.
 
-1. npm install
-2. npm run dev
+## Run locally
 
-## Check
-- npm run lint
-- npm run format:check
-- npm run build
+Requires a Node.js version supported by Vite (Node 20.19+ or 22.12+).
+
+```bash
+npm install
+npm run dev
+```
+
+## Quality checks
+
+```bash
+npm run lint
+npm run format:check
+npm run build
+```
+
+If formatting reports differences, use npm run format, then commit the changes.
 
 ## Deploy
-Import the public GitHub repository into Vercel, choose the Vite preset, build using npm run build, and publish dist.
-Submit both the GitHub repository and deployed Vercel URLs to GoIT.
+
+Import the public GitHub repository into Vercel, select the Vite preset, build with npm run build, and publish the dist directory.
+
+Submit the GitHub repository URL and the live Vercel URL to GoIT.
