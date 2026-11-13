@@ -4,7 +4,12 @@
   gap: 9px;
   margin: 24px 0 20px;
 }
-.label { font-size: 1.1rem; font-weight: 600; }
+
+.label {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
 .input {
   width: 100%;
   min-height: 46px;
@@ -14,4 +19,7 @@
   background: #fff;
   color: #171717;
 }
-.input::placeholder { color: #888; }
+
+.input::placeholder {
+  color: #888;
+}
