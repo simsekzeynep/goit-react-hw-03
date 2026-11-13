@@ -1,0 +1,15 @@
+.container {
+  width: min(100% - 32px, 580px);
+  margin: 48px auto 72px;
+}
+.title {
+  margin: 0 0 28px;
+  font-size: clamp(2.4rem, 7vw, 3.5rem);
+  font-weight: 750;
+  line-height: 1.15;
+  letter-spacing: -0.035em;
+}
+@media (max-width: 520px) {
+  .container { margin-top: 26px; }
+  .title { margin-bottom: 22px; }
+}
